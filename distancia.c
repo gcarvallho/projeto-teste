@@ -19,8 +19,8 @@ int main(){
 	scanf("%d %d", &x2,&y2);	
 	
 	//calculo da distancia entre os pontos e mostra o resultado
-	distancia = caulculoDistancia(x1,y1,x2,y2);
-	printf("Distancia: %f", distancia);
+	distancia = calculaDistancia(x1,y1,x2,y2);
+	printf("Distancia: %.2f", distancia);
 	
 } 
 
